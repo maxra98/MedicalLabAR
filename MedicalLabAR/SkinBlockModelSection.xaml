@@ -1,0 +1,42 @@
+﻿<Page
+    x:Class="MedicalLabAR.SkinBlockModelSection"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MedicalLabAR"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <ScrollViewer>
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Top" Width="550" Margin="20,20,0,0">
+                <TextBlock FontSize="32">Haut Blockmodell</TextBlock>
+
+                <TextBlock FontSize="18" TextWrapping="WrapWholeWords" TextAlignment="Justify" Margin="0,20,0,0">
+                Mit der Haut Blockmodell Option, können Bezeichungen für ein Haut Blockmodell
+                aufgerufen werden. Die Bezeichungen sind für das Haut Blockmodell vom Hersteller 
+                „Erler Zimmer“ entworfen, welches im MEDS Labor zur Verfügung steht.
+                </TextBlock>
+
+                <Image Width="200" Margin="0,10,0,0">
+                    <Image.Source>
+                        <BitmapImage DecodePixelHeight="200" UriSource="/Assets/J2132_1_600x600.jpg" />
+                    </Image.Source>
+                </Image>
+
+                <TextBlock FontSize="18" TextWrapping="WrapWholeWords" TextAlignment="Justify" Margin="0,10,0,0">
+                Um die Anzeigefunktion auszuführen, drücken Sie auf den „<Bold>Bezeichnungen Einblenden</Bold>“
+                Button. Die dreidimensionale holografische Umgebung wird im Anschluss gestartet und ein Ausrichtungsmodell 
+                erscheint, welches die Maße des Haut Blockmodels besitzt. Das holografische Objekt soll bestmöglich an das
+                reale Modell ausgerichtet werden. Ist das holografische Objekt erfolgreich ausgerichtet, kann die Position
+                mit der Air Tap Geste (kurzes antippen von Daumen und Zeigefinger) bestätigt werden. Die holografischen 
+                Bezeichungen werden anschließend vor Ihnen erscheinen.
+                <LineBreak/>Hinweis: Das beste Ergebnis erhält man, indem die seitlichen Kanten des Hautmodells möglichst 
+                deckungsgleich übereinander liegen.
+                </TextBlock>
+
+                <Button x:Name="skinButton" Style="{ThemeResource AccentButtonStyle}" Click="SkinBlockModelButtonHandler"  Content="Bezeichnungen Einblenden" Margin="200,20,0,0" Height="80" Width="200"/>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

@@ -1,0 +1,9 @@
+namespace MedicalLabAR
+{
+    [default_interface]
+    runtimeclass WelcomeSection : Windows.UI.Xaml.Controls.Page
+    {
+        WelcomeSection();
+        Int32 MyProperty;
+    }
+}

@@ -1,0 +1,9 @@
+namespace MedicalLabAR
+{
+    [default_interface]
+    runtimeclass InformationSection_en : Windows.UI.Xaml.Controls.Page
+    {
+        InformationSection_en();
+        Int32 MyProperty;
+    }
+}

@@ -1,0 +1,40 @@
+﻿<Page
+    x:Class="MedicalLabAR.InformationSection"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MedicalLabAR"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <ScrollViewer>
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Top" Width="550" Margin="20,20,0,0">
+
+                <TextBlock FontSize="18" TextWrapping="WrapWholeWords" TextAlignment="Justify">
+                <LineBreak/>Mit <Bold>MedicalLabAR</Bold> können Sie sich die Definitionen und Beschriftungen zu 
+                unterschiedlichen Medizinprodukten und Anatomiemodellen,
+                holografisch auf der HoloLens 2, einblenden lassen.
+                Im Seitenmenü können Sie aus den verfügbaren Optionen auswählen.
+                </TextBlock>
+
+                <TextBlock FontSize="18" Margin="0,30,0,0" Foreground="Red" TextWrapping="WrapWholeWords" TextAlignment="Left">
+                Hinweis:
+                <LineBreak/>Zur Zeit ist nur die "Haut Blockmodell" Option verfügbar!
+                </TextBlock>
+
+                <TextBlock FontSize="24" Margin="0,100,0,0" TextWrapping="WrapWholeWords" TextAlignment="Justify">
+                <Bold>Haftungsausschluss</Bold>
+                </TextBlock>
+                <TextBlock FontSize="18" Margin="0,10,0,0" TextWrapping="WrapWholeWords" TextAlignment="Justify">
+                Die in dieser Anwendung bereitgestellten Informationen sind nur für allgemeine Informations- und 
+                Bildungszwecke bestimmt und stellen keinen Ersatz für professionelle medizinische Beratung, Diagnose 
+                oder Behandlung dar. Die Anwendung kann Fehler oder Unvollständigkeiten enthalten und die bereitgestellten 
+                Informationen können nicht vollständig oder aktuell sein. Die Nutzung der Anwendung erfolgt auf eigene Gefahr.
+                <Bold>MedicalLabAR</Bold> ist ein Demoprojekt und ist rein für Demonstrationszwecke gedacht.
+                </TextBlock>
+
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>
