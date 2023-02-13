@@ -7,4 +7,4 @@ Checklist](https://learn.microsoft.com/en-us/windows/mixed-reality/develop/insta
 
 - You can simply clone or download the repo.
 
-- Then open the MedicalLabAR.sln solution file in Visual Studio. Depending on the platform you want to run the application on, you will need to select an appropriate solution platform architecture. To run on a HoloLens 2 device, select the ARM64 platform. To run on a HoloLens 2 emulator on a Windows desktop PC, select the x64 or x86 platform. 
+- Open the MedicalLabAR.sln solution file in Visual Studio. Depending on the platform you want to run the application on, you will need to select an appropriate solution platform architecture. To run on a HoloLens 2 device, select the ARM64 platform. To run on a HoloLens 2 emulator on a Windows desktop PC, select the x64 or x86 platform. 
