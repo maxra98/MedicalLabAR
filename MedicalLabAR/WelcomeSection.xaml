@@ -12,12 +12,12 @@
             <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Top" Width="550" Margin="20,20,0,0">
 
                 <TextBlock FontSize="30" TextWrapping="WrapWholeWords" TextAlignment="Justify">
-                Welcome to <Bold>MedicalLabAR</Bold>!
+                Willkommen zu <Bold>MedicalLabAR</Bold>!
                 </TextBlock>
 
                 <Image Width="300" Margin="0,70,0,0">
                     <Image.Source>
-                        <BitmapImage DecodePixelHeight="400" UriSource="/Assets/MedicalLabAR_Icon.png" />
+                        <BitmapImage DecodePixelHeight="400" UriSource="/Assets/MediacalLabAR_App_Icon.png" />
                     </Image.Source>
                 </Image>
             </StackPanel>

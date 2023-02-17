@@ -17,7 +17,7 @@
 
                 <Image Width="300" Margin="0,80,0,0">
                     <Image.Source>
-                        <BitmapImage DecodePixelHeight="400" UriSource="/Assets/MedicalLabAR_Icon.png" />
+                        <BitmapImage DecodePixelHeight="400" UriSource="/Assets/MediacalLabAR_App_Icon.png" />
                     </Image.Source>
                 </Image>
             </StackPanel>

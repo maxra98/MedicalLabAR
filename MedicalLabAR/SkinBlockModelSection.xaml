@@ -25,17 +25,17 @@
                 </Image>
 
                 <TextBlock FontSize="18" TextWrapping="WrapWholeWords" TextAlignment="Justify" Margin="0,10,0,0">
-                Um die Anzeigefunktion auszuführen, drücken Sie auf den „<Bold>Bezeichnungen Einblenden</Bold>“
+                Um die Anzeigefunktion auszuführen, drücken Sie auf den „<Bold>Bezeichnungen einblenden</Bold>“
                 Button. Die dreidimensionale holografische Umgebung wird im Anschluss gestartet und ein Ausrichtungsmodell 
                 erscheint, welches die Maße des Haut Blockmodels besitzt. Das holografische Objekt soll bestmöglich an das
                 reale Modell ausgerichtet werden. Ist das holografische Objekt erfolgreich ausgerichtet, kann die Position
                 mit der Air Tap Geste (kurzes antippen von Daumen und Zeigefinger) bestätigt werden. Die holografischen 
                 Bezeichungen werden anschließend vor Ihnen erscheinen.
-                <LineBreak/>Hinweis: Das beste Ergebnis erhält man, indem die seitlichen Kanten des Hautmodells möglichst 
+                <LineBreak/>Hinweis: Das beste Ergebnis wird erreicht, indem die seitlichen Kanten des Haut Blockmodells möglichst 
                 deckungsgleich übereinander liegen.
                 </TextBlock>
 
-                <Button x:Name="skinButton" Style="{ThemeResource AccentButtonStyle}" Click="SkinBlockModelButtonHandler"  Content="Bezeichnungen Einblenden" Margin="200,20,0,0" Height="80" Width="200"/>
+                <Button x:Name="skinButton" Style="{ThemeResource AccentButtonStyle}" Click="SkinBlockModelButtonHandler"  Content="Bezeichnungen einblenden" Margin="200,20,0,0" Height="80" Width="200"/>
             </StackPanel>
         </ScrollViewer>
     </Grid>
