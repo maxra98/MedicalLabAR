@@ -1,7 +1,7 @@
 # MedicalLabAR
 MedicalLabAR is a native augmented reality application for the HoloLens 2. It can name and display the individual anatomical structures of a corresponding skin block model. The applikation is developed without a game engine such as Unity or Unreal by using OpenXR and the XrSceneLib_uwp library from Microsoft. The XrSceneLib_uwp library uses C++17, OpenXR and D3D11 and can be found in the [OpenXR-MixedReality](https://github.com/microsoft/OpenXR-MixedReality) repo. The labels are designed for the skin block model from the manufacturer "Erler Zimmer". 
 
-## Setup, build an run the app
+## Setup, build and run the app
 - To deploy the application to the HoloLens 2 or HoloLens 2 Emulator, you will need Visual Studio 2019 16.2 or later. For more details, see the [Installation 
 Checklist](https://learn.microsoft.com/en-us/windows/mixed-reality/develop/install-the-tools#installation-checklist), which lists all the tools requiered to build the application.
 
